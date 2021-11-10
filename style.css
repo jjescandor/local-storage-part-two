@@ -1,0 +1,168 @@
+body{
+    background-color: lightsteelblue;
+    color:rgb(65, 75, 85);
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body>header{
+    border-top:1rem solid #005c99;
+    background: url('assets/background.jpeg');
+    height:250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+div>header{
+    background-color: rgb(65, 75, 85);
+    color:white;
+}
+
+header,
+main,
+footer{
+    width:960px;
+    margin:auto;
+    background-color: #708090;
+    
+}
+
+body>header>h1{
+    font-size: 2.5rem;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: block;
+}
+
+li a{
+    font-size: 2.2rem;
+    text-decoration: none;
+    color:rgb(10, 88, 88);
+    font-weight:bold;
+}
+
+li a:hover{
+    border-bottom: 2px orange solid;
+}
+
+li{
+    margin:2rem;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+}
+
+th{
+    padding: 1rem 5rem;
+    background-color: lightcoral;
+}
+
+td{
+    text-align: center;
+    padding:10px;
+}
+
+legend{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+
+}
+
+fieldset{
+    align-items: center;
+    height:5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+
+input[type='submit']{
+    font-size: 1.3rem;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    transition-duration: 350ms;
+    background-color: darkslategrey;
+}
+
+input[type='submit']:hover{
+    background-color: rgb(218, 114, 76);
+    font-size: 1.3rem;
+    color:white;
+    transition-duration: 350ms;
+    transform: scale(1.05);
+}
+
+input[type='submit']:active{
+    transform: scale(1);
+}
+
+
+form{
+    width:100%;
+}
+
+#cartContents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(216, 234, 245);
+    height:auto;
+}
+
+#cart-container{
+    display: flex;
+    justify-content: center;
+}
+
+#cartContents p{
+    margin:1rem;
+}
+
+
+
+footer p{
+    padding:3rem;
+    margin: auto;
+    width: 300px;
+}
+
+h1,
+nav{
+    padding:0.5rem;
+    margin: auto;
+    width: 300px;
+}
+
+footer{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+img{
+    width:250px;
+    height:350px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    margin-bottom:1rem;
+}
+
