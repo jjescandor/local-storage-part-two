@@ -36,13 +36,20 @@ footer{
 }
 
 body>header>h1{
-    font-size: 2.5rem;
-    color:rgb(51, 50, 50);
+    font-weight: bold;
+    font-size: 3.5rem;
+    color:white;
+    text-shadow:
+    -2px -2px 0 blue,  
+     2px -2px 0 blue,
+     -2px 2px 0 blue,
+      2px 2px 0 blue;
     background-color:whitesmoke;
     opacity: 0.8;
     padding:1rem;
     border-radius: 3px;
     border:1px solid lightgrey;
+    width:350px;
 }
 
 h1{
@@ -183,4 +190,15 @@ img{
 footer{
     -webkit-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
+}
+
+#itemCount{
+    color:lightcoral;
+    font-size: 2.2rem;
+    text-shadow:
+    -2px -2px 0 whitesmoke,  
+     2px -2px 0 whitesmoke,
+     -2px 2px 0 whitesmoke,
+      2px 2px 0 whitesmoke;
+    font-weight: bold;
 }
