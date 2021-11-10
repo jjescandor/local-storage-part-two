@@ -3,21 +3,27 @@ body{
     color:rgb(65, 75, 85);
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 
 body>header{
-    border-top:1rem solid #005c99;
-    background: url('assets/background.jpeg');
-    height:250px;
+    border-top:1rem solid lightcoral;
+    background: url('assets/backgroundTwo.jpg');
+    height:300px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 div>header{
     background-color: rgb(65, 75, 85);
     color:white;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(109, 126, 145);
+    box-shadow: 0 10px 6px -6px rgb(109, 126, 145);
 }
 
 header,
@@ -31,6 +37,12 @@ footer{
 
 body>header>h1{
     font-size: 2.5rem;
+    color:rgb(51, 50, 50);
+    background-color:whitesmoke;
+    opacity: 0.8;
+    padding:1rem;
+    border-radius: 3px;
+    border:1px solid lightgrey;
 }
 
 h1{
@@ -48,14 +60,19 @@ nav{
 }
 
 li a{
-    font-size: 2.2rem;
+    font-size: 3rem;
     text-decoration: none;
-    color:rgb(10, 88, 88);
+    color:whitesmoke;
     font-weight:bold;
+    text-shadow:
+     -2px -2px 0 lightcoral,  
+      2px -2px 0 lightcoral,
+      -2px 2px 0 lightcoral,
+       2px 2px 0 lightcoral;
 }
 
 li a:hover{
-    border-bottom: 2px orange solid;
+   color:lightgreen;
 }
 
 li{
@@ -81,7 +98,6 @@ legend{
     text-align:center;
     color:white;
     font-weight:bold;
-
 }
 
 fieldset{
@@ -126,6 +142,8 @@ form{
     flex-direction: column;
     background-color: rgb(216, 234, 245);
     height:auto;
+    border-radius: 3px;
+    border:1px solid slategray;
 }
 
 #cart-container{
@@ -152,11 +170,6 @@ nav{
     width: 300px;
 }
 
-footer{
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 10px 6px -6px #777;
-}
-
 img{
     width:250px;
     height:350px;
@@ -166,3 +179,8 @@ img{
     margin-bottom:1rem;
 }
 
+
+footer{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
